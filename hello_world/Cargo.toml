@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# cargo build to build
+# cargo run to run
+# cargo check to check for errors
+# cargo build --release to release software
