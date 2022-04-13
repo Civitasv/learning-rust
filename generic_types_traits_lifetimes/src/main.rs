@@ -31,7 +31,7 @@ fn main() {
     let p2 = Point { x: "Hello", y: 'c' };
     let p3 = p1.mixup(p2);
     let article = NewArticle {
-        headline: String::from("head"),
+        headline: "headline",
         location: String::from("location"),
         author: String::from("author"),
         content: String::from("content"),
