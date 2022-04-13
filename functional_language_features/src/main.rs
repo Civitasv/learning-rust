@@ -73,24 +73,23 @@ fn generate_workout(intensity: u32, random_number: u32) {
     }
 }
 
-struct TreeNode<'a T>{
-    val: T,
-    children: &'a Vec<TreeNode>
-}
+// struct TreeNode<'a T>{
+//     val: T,
+//     children: &'a Vec<TreeNode>
+// }
 
-impl<T> TreeNode<T>{
-    fn new(val: T)->TreeNode<T>{
-       TreeNode{
-           val, 
-           None
-        }
-    }
-}
+// impl<T> TreeNode<T>{
+//     fn new(val: T)->TreeNode<T>{
+//        TreeNode{
+//            val,
+//            None
+//         }
+//     }
+// }
 
-fn tree_map<T>(f:fn(T)->T, tree:TreeNode<T>) {
-    
-}
+// fn tree_map<T>(f:fn(T)->T, tree:TreeNode<T>) {
+// }
 
-fn forest_map(fn, forest) {
+// fn forest_map(fn, forest) {
 
-}
+// }
