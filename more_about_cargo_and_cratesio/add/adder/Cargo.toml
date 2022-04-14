@@ -1,0 +1,7 @@
+[package]
+edition = "2021"
+name = "adder"
+version = "0.1.0"
+
+[dependencies]
+add_one = {path = "../add_one"}
