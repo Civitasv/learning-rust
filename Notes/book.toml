@@ -1,0 +1,6 @@
+[book]
+authors = ["Civitasv"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rustt"
